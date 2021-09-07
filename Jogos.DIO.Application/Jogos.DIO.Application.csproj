@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Levi\source\repos\Jogos.DIO\Jogos.DIO.Application\Jogos.DIO.Application.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Jogos.DIO.Domain\Jogos.DIO.Domain.csproj" />
+    <ProjectReference Include="..\Jogos.DIO.Infra.CrossCutting\Jogos.DIO.Infra.CrossCutting.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infra.Shared\Infra.Shared.csproj" />
+    <ProjectReference Include="..\Jogos.DIO.Domain\Jogos.DIO.Domain.csproj" />
+    <ProjectReference Include="..\Jogos.DIO.Infra.Data\Jogos.DIO.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
